@@ -13,6 +13,19 @@ private MyLinkedList<K> myLinkedList;
 		myLinkedList.append(newNode);
 	}
 	
+	public MyNode<K> dequeue(){
+		return myLinkedList.pop();
+	}
+	
+	public int size() {
+		return myLinkedList.size();
+	}
+	
+	public boolean isEmpty() {
+		if(myLinkedList.size() == 0) return true;
+		return false;
+	}
+	
 	public void display() {
 		myLinkedList.display();
 	}
