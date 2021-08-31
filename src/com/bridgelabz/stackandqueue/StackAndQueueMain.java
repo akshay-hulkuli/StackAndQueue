@@ -16,5 +16,6 @@ public class StackAndQueueMain {
 		
 		System.out.println("The content of stack starting from top : ");
 		myStack.display();
+		
 	}
 }
