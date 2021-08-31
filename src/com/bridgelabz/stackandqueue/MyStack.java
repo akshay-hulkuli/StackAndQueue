@@ -13,6 +13,23 @@ public class MyStack<K> {
 		myLinkedList.add(newNode);
 	}
 	
+	public MyNode<K> pop(){
+		return myLinkedList.pop();
+	}
+	
+	public int size() {
+		return myLinkedList.size();
+	}
+	
+	public MyNode<K> peek(){
+		return myLinkedList.head;
+	}
+	
+	public boolean isEmpty() {
+		if(myLinkedList.size() == 0) return true;
+		return false;
+	}
+	
 	public void display() {
 		myLinkedList.display();
 	}
